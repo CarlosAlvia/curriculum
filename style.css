@@ -1,0 +1,38 @@
+
+  body {
+    background-color: white;
+  }
+  h1 {
+    text-align: center;
+  }
+  footer{
+    text-align: center;
+  }
+  p{
+    font-weight: bold;
+  }
+  span{
+    font-weight: normal;
+  }
+
+  .principal{
+    display: flex;
+    flex-direction: row;
+  }
+  .seccionIzquierda{
+    flex: 1;
+    background-color: gainsboro;
+    padding: 10px 10px 10px 10px;
+  }
+  .seccionIzquierda img{
+    max-width: 100%;
+  }
+  .seccionDerecha{
+    flex: 4;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(230, 244, 249);
+  }
+  footer{
+    align-self: top;
+  }
+
