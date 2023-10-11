@@ -35,4 +35,31 @@
   footer{
     align-self: top;
   }
-
+  .espol{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+  }
+  .espolDetalle{
+    flex: 3;
+  }
+  .espolDetalle p{
+    margin-bottom: 1.5em;
+  }
+  .espolMapa{
+    flex: 2;
+  }
+  .tes{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+  }
+  .tesDetalle{
+    flex: 3;
+  }
+  .tesDetalle p{
+    margin-bottom: 1.5em;
+  }
+  .tesMapa{
+    flex: 2;
+  }
