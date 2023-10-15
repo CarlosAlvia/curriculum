@@ -21,16 +21,28 @@
   }
   .seccionIzquierda{
     flex: 1;
-    background-color: gainsboro;
+    background-color: #414d62;
     padding: 10px 10px 10px 10px;
+  }
+  #informacion-personal{
+    color: white;
+  }
+  #contacto{
+    color: white;
+  }
+  #habilidades{
+    color: white;
   }
   .seccionIzquierda img{
     max-width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
   }
   .seccionDerecha{
     flex: 4;
+    background-color: rgb(243, 246, 244);
     padding: 10px 10px 10px 10px;
-    background-color: rgb(230, 244, 249);
+    color: black;
   }
   footer{
     align-self: top;
@@ -62,5 +74,9 @@
   }
   .tesMapa{
     flex: 2;
+  }
+  iframe{
+    border-radius: 15px;
+    overflow: hidden;
   }
 
